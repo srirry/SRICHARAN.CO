@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PEARL HARBOUR</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: black;
+      color: white;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #111;
+      padding: 20px;
+      text-align: center;
+      font-size: 2em;
+      letter-spacing: 4px;
+    }
+    .filters {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin: 20px 0;
+    }
+    .filters select {
+      padding: 10px;
+      font-size: 16px;
+    }
+    .watch-display {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+    .watch-card {
+      background-color: #222;
+      border-radius: 15px;
+      padding: 20px;
+      text-align: center;
+    }
+    .watch-card img {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+    footer {
+      background-color: #111;
+      text-align: center;
+      padding: 10px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>PEARL HARBOUR</header>
+  <div class="filters">
+    <select>
+      <option>Filter by Type</option>
+      <option>Luxury</option>
+      <option>Sport</option>
+    </select>
+    <select>
+      <option>Filter by Price</option>
+      <option>Under ₹1L</option>
+      <option>Above ₹1L</option>
+    </select>
+  </div>
+  <div class="watch-display">
+    <div class="watch-card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Audemars_Piguet_Royal_Oak_Chronograph.jpg/800px-Audemars_Piguet_Royal_Oak_Chronograph.jpg" alt="AP Watch"/>
+      <h2>Audemars Piguet Ro
